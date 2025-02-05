@@ -48,6 +48,6 @@ def random_password_generator():
 
     str_password = "".join(password)  # Converting list to string
 
-    print(str_password)  # Displaying the generated password
+    print("Generated Password: " + str_password)  # Displaying the generated password
 
 random_password_generator()  # Calling the function to execute
