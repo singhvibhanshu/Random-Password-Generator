@@ -43,6 +43,3 @@ Do you like to include digits? (y/n): y
 Do you like to include Special characters? (y/n): y
 Generated Password: @dB8#xF5!zQ1
 ```
-
-## Author
-[**Vibhanshu Singh**](https://github.com/singhvibhanshu)
