@@ -4,7 +4,7 @@
 This is a Python-based Random Password Generator that allows users to create strong passwords with customizable options such as length, lowercase, uppercase, digits, and special characters.
 
 ## Features
-- Ensures a minimum password length of 8 characters
+- Ensures a minimum password length of 4 characters
 - Allows users to choose whether to include:
   - Lowercase letters
   - Uppercase letters
@@ -36,7 +36,7 @@ This is a Python-based Random Password Generator that allows users to create str
 
 ## Example
 ```
-Enter the length of your password (minimum 8): 12
+Enter the length of your password (minimum 4): 12
 Do you like to include Lower-Case characters? (y/n): y
 Do you like to include Upper-Case characters? (y/n): y
 Do you like to include digits? (y/n): y
