@@ -29,7 +29,7 @@ This is a Python-based Random Password Generator that allows users to create str
 ## Usage
 1. Run the script:
    ```sh
-   python random_password_generator.py
+   python random-pass-generator.py
    ```
 2. Follow the prompts to enter the desired password length and select character options.
 3. The generated password will be displayed.
