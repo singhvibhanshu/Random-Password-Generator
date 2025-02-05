@@ -18,6 +18,27 @@ def random_password_generator():
 
     all_characters = lowercase + uppercase + digits + specials
 
-    print(all_characters)
+    required_characters = []
+    if include_lowercase == 'y':
+        required_characters.append(random.choice(lowercase))
+    if include_uppercase == 'y':
+        required_characters.append(random.choice(uppercase))
+    if include_digits == 'y':
+        required_characters.append(random.choice(digits))
+    if include_specials == 'y':
+        required_characters.append(random.choice(specials))
+
+    remaining_length = length - len(required_characters)
+    password = required_characters
+
+    for _ in range(remaining_length):
+        characters = random.choice(all_characters)
+        password.append(characters)
+
+    random.shuffle(password)
+
+    str_password = "".join(password)
+
+    print(str_password)
 
 random_password_generator()
